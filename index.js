@@ -4,6 +4,12 @@ const si = require('systeminformation');
 const app = express()
 const port = 3000
 
+const drivelist = require('drivelist');
+ 
+const drives = await drivelist.list();
+drives.forEach((drive) => {
+  console.log(drive);
+});
 
 
 // vygeneruje html stranku ze slozky Views/index.pug 

@@ -24,6 +24,7 @@
   "homepage": "https://github.com/warrenek/device-manager#readme",
   "dependencies": {
     "@syndicats/drivelist": "^9.0.0",
+    "drivelist": "^8.0.10",
     "express": "^4.17.1",
     "pug": "^2.0.4",
     "systeminformation": "^4.23.3"
