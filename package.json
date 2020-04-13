@@ -1,0 +1,31 @@
+{
+  "name": "device-manager",
+  "version": "0.0.1",
+  "description": "pokus o app co bude zobrazovat pripojene zarizeni k siti",
+  "main": "index.js",
+  "scripts": {
+    "test": "t",
+    "start": "npx nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warrenek/device-manager.git"
+  },
+  "keywords": [
+    "device",
+    "manager",
+    "manage"
+  ],
+  "author": "Jirka Bartunek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/warrenek/device-manager"
+  },
+  "homepage": "https://github.com/warrenek/device-manager#readme",
+  "dependencies": {
+    "@syndicats/drivelist": "^9.0.0",
+    "express": "^4.17.1",
+    "pug": "^2.0.4",
+    "systeminformation": "^4.23.3"
+  }
+}
